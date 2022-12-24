@@ -1,6 +1,6 @@
-import React from 'react'
-import './services.css'
-import { AiOutlineCheck } from 'react-icons/ai'
+import React from "react"
+import "./services.css"
+import { AiOutlineCheck } from "react-icons/ai"
 
 function Services() {
   return (
@@ -17,23 +17,15 @@ function Services() {
           <ul className='service__list'>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Creating of good UI interface</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Engaging User Experience</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Clear Navigation of Webpages</p>
             </li>
           </ul>
         </article>
@@ -47,33 +39,19 @@ function Services() {
           <ul className='service__list'>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Single page landing page</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Multiple Page website</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Creation of Full stack Website</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service__list-icon' />
-
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service__list-icon' />
-
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Basic Website using HTML/CSS</p>
             </li>
           </ul>
         </article>
@@ -87,23 +65,31 @@ function Services() {
           <ul className='service__list'>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Successfully handled Facebook Pages</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>Good Understanding of social Media SEO</p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>
+                Used Digital Marketing Skills, Social Media Marketing Skills
+              </p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>
+                Record and edit video for use as social content and digital
+                content
+              </p>
             </li>
             <li>
               <AiOutlineCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur adip elit.</p>
+              <p>
+                Promoted targeted content through various social networking
+                sites
+              </p>
             </li>
           </ul>
         </article>

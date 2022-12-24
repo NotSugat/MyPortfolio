@@ -1,9 +1,9 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/person-1.jpg'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import React from "react"
+import "./about.css"
+import ME from "../../assets/person-1.jpg"
+import { FaAward } from "react-icons/fa"
+import { FiUsers } from "react-icons/fi"
+import { VscFolderLibrary } from "react-icons/vsc"
 
 const About = () => {
   return (
@@ -29,21 +29,20 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>50+ World wide</small>
+              <small>5+ World wide</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>20+ completed project</small>
+              <small>10+ completed project</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
-            error obcaecati totam quae tempore hic molestias similique,
-            inventore nihil impedit illo. Aliquam mollitia illo voluptates vel
-            eligendi vitae, modi quisquam.
+            I am Sugat Sujakhu who have passion for creating something for which
+            can benefits public through my programming skill. I am active
+            learner and ethusiast who thrive to learn something new everyday.
           </p>
 
           <a href='#contact' className='btn btn-primary'>

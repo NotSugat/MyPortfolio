@@ -1,54 +1,53 @@
-import React from 'react'
-import './portfolio.css'
-import IMG1 from '../../assets/twitter-clone.png'
-import IMG2 from '../../assets/Airbnb-clone.png'
-import IMG3 from '../../assets/E-commerce.png'
-import IMG4 from '../../assets/Airbnb-clone.png'
-import IMG5 from '../../assets/Airbnb-clone.png'
-import IMG6 from '../../assets/Airbnb-clone.png'
+import React from "react"
+import "./portfolio.css"
+import IMG1 from "../../assets/twitter-clone.png"
+import IMG2 from "../../assets/Airbnb-clone.png"
+import IMG3 from "../../assets/E-commerce.png"
+import IMG4 from "../../assets/UniveristyWebsite.png"
+import IMG5 from "../../assets/KuRentLogin.png"
+import IMG6 from "../../assets/Airbnb-clone.png"
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Twitter Clone using Next.js, Firebase, Tailwind, Recoil',
-    github: 'https://github.com/NotSugat/twitter-clone-final',
-    demo: 'https://twitter-clone-bruh.vercel.app/',
+    title: "Twitter Clone using Next.js, Firebase, Tailwind, Recoil",
+    github: "https://github.com/NotSugat/twitter-clone-final",
+    demo: "https://twitter-clone-bruh.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: 'AirBnB Clone using Next.js, Firebase, Tailwind',
-    github: 'https://github.com/NotSugat/airbnb-clone',
-    demo: 'https://airbnb-clone-nine-snowy.vercel.app/',
+    title: "AirBnB Clone using Next.js, Firebase, Tailwind",
+    github: "https://github.com/NotSugat/airbnb-clone",
+    demo: "https://airbnb-clone-nine-snowy.vercel.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: 'E-commerce Website using Next.js, Firebase, Tailwind, Recoil',
-    github: 'https://github.com/NotSugat/project-6-final',
-    demo: 'https://notsugat.github.io/project-6-final/',
+    title: "E-commerce Website using HTML/CSS/JavaScript",
+    github: "https://github.com/NotSugat/project-6-final",
+    demo: "https://notsugat.github.io/project-6-final/",
   },
   {
     id: 4,
     image: IMG4,
-    title: 'University Site using Next.js, Firebase, Tailwind, Recoil',
-    github: 'https://github.com',
-    demo: 'https://notsugat.github.io/project5/',
+    title: "University Site using HTML/CSS/JavaScript",
+    github: "https://github.com",
+    demo: "https://notsugat.github.io/project5/",
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Twitter Clone using Next.js, Firebase, Tailwind, Recoil',
-    github: 'https://github.com',
-    demo: 'https://twitter-clone-bruh.vercel.app/',
+    title: "Vehicle Renting Application using Qt, Qml, C++, SQlite",
+    github: "https://github.com/NotSugat/kuRentQt5",
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Twitter Clone using Next.js, Firebase, Tailwind, Recoil',
-    github: 'https://github.com',
-    demo: 'https://twitter-clone-bruh.vercel.app/',
+    title: "Demo",
+    github: "https://github.com",
+    demo: "https://twitter-clone-bruh.vercel.app/",
   },
 ]
 

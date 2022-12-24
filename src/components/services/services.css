@@ -33,11 +33,13 @@
 
 .service__list {
   padding: 2rem;
+  height: 20rem;
 }
+
 .service__list li {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 0.8rem;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .service__list-icon {
