@@ -1,11 +1,11 @@
-import React from "react"
-import "./portfolio.css"
-import IMG1 from "../../assets/twitter-clone.png"
-import IMG2 from "../../assets/Airbnb-clone.png"
-import IMG3 from "../../assets/E-commerce.png"
-import IMG4 from "../../assets/UniveristyWebsite.png"
-import IMG5 from "../../assets/KuRentLogin.png"
-import IMG6 from "../../assets/Airbnb-clone.png"
+import React from "react";
+import "./portfolio.css";
+import IMG1 from "../../assets/twitter-clone.png";
+import IMG2 from "../../assets/Airbnb-clone.png";
+import IMG3 from "../../assets/E-commerce.png";
+import IMG4 from "../../assets/UniveristyWebsite.png";
+import IMG5 from "../../assets/KuRentLogin.png";
+import IMG6 from "../../assets/Airbnb-clone.png";
 
 const data = [
   {
@@ -49,36 +49,36 @@ const data = [
     github: "https://github.com",
     demo: "https://twitter-clone-bruh.vercel.app/",
   },
-]
+];
 
 function Portfolio() {
   return (
-    <section id='portfolio'>
+    <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <div className='container portfolio__container'>
+      <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className='portfolio__item'>
-              <div className='portfolio__item-image'>
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
 
               <h3>{title}</h3>
-              <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>
+              <div className="portfolio__item-cta">
+                <a href={github} className="btn">
                   Github
                 </a>
-                <a href={demo} className='btn btn-primary' target='_blank'>
+                <a href={demo} className="btn btn-primary">
                   Live Demo
                 </a>
               </div>
             </article>
-          )
+          );
         })}
       </div>
     </section>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;
